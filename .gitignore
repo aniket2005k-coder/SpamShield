@@ -1,0 +1,20 @@
+# OAuth credentials — NEVER commit these
+credentials.json
+auth/gmail_token.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.env
+
+# Models (large files)
+model/*.pkl
+
+# Uploads
+uploads/
+
+# IDE
+.vscode/
+.idea/
